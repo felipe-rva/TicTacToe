@@ -16,7 +16,7 @@
 
 <h1>Triki</h1>
 
-<table border="1">
+<table border="4">
 
 <%
 List<Line> lines = gameBean.getGridLines();
