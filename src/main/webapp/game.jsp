@@ -10,11 +10,11 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Tic Tac Toe</title>
+<title>Triki</title>
 </head>
 <body>
 
-<h1>Tic Tac Toe</h1>
+<h1>Triki</h1>
 
 <table border="1">
 
@@ -73,9 +73,9 @@ else{
 <%
 if(request.getAttribute("winner") != null){
 %>
-<h2><%=request.getAttribute("winner")%> Won!</h2>
+<h2><%=request.getAttribute("winner")%> gana!</h2>
 <form action="<%=request.getContextPath()%>/index.jsp" method="post">
-<input type="submit" name="Replay" value="Play again"><br/>
+<input type="submit" name="Replay" value="jugar de nuevo"><br/>
 </form>
 <%
 }
